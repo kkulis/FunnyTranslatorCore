@@ -34,8 +34,11 @@ namespace FunnyTranslator.Controllers
             if (ModelState.IsValid)
             {
                 _logger.LogInformation($"text given: {messageViewModel.Text}");
+
                 var message = await _translatorService.YodaTranslate(messageViewModel);
+
                 _logger.LogInformation($"text translated: {message}");
+
                 ViewData["Message"] = message;
             }
             return View();
