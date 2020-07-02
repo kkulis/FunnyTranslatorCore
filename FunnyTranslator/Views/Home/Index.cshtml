@@ -1,0 +1,21 @@
+﻿@model FunnyTranslator.Models.MessageViewModel
+@{
+    ViewBag.Title = "Translator";
+}
+<div class="container">
+    <div class="row">
+        <h3>Translator</h3>
+    </div>
+    <div class="row">
+        <form method="post">
+
+            <label>Write text to translate</label>
+            <input asp-for="@Model.Text" />
+            <button type="submit">Translate</button>
+        </form>
+    </div>
+    <div class="row">
+        <p>@ViewData["Message"]</p>
+    </div>
+</div>
+
