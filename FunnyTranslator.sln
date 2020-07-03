@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyTranslator", "FunnyTranslator\FunnyTranslator.csproj", "{D53B5434-8E2C-4ED3-B02A-C584F379D35C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyTranslator.Tests", "FunnyTranslator.Tests\FunnyTranslator.Tests.csproj", "{4DDEF918-9A4D-4DEB-9DA9-05EC912572C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D53B5434-8E2C-4ED3-B02A-C584F379D35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53B5434-8E2C-4ED3-B02A-C584F379D35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D53B5434-8E2C-4ED3-B02A-C584F379D35C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDEF918-9A4D-4DEB-9DA9-05EC912572C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDEF918-9A4D-4DEB-9DA9-05EC912572C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDEF918-9A4D-4DEB-9DA9-05EC912572C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDEF918-9A4D-4DEB-9DA9-05EC912572C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
