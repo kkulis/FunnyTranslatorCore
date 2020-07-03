@@ -24,8 +24,6 @@ namespace FunnyTranslator.Tests
 
             ILogger<TranslatorService> logger = mock.Object;
 
-            logger = Mock.Of<ILogger<TranslatorService>>();
-
             var sut = new TranslatorService(logger);
 
             var result = await sut.YodaTranslate(model);
